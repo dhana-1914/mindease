@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindease</title>
+     <style>
+        body{
+            font-family: Arial,sans-serif;
+            background: url(https://static.wixstatic.com/media/2be1ce_deb8b98d61874ef9bbf278ad03f1471c~mv2.jpg/v1/fill/w_980,h_653,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/2be1ce_deb8b98d61874ef9bbf278ad03f1471c~mv2.jpg) no-repeat center center fixed;
+            background-size: cover;
+            justify-content: center;
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+            margin:0;
+        }
+    .login-box {
+      background: rgba(255,255,255,0,3);
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0px 6px 15px rgba(0,0,0,0.4);
+      width: 300px;
+      color:#fff;
+    }
+    .login-box h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color:black;
+    }
+    .login-box input {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+    .login-box button {
+      width: 100%;
+      padding: 10px;
+      background: #4CAF50;
+      color: white;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    .login-box button:hover {
+      background: #45a049;
+    }
+    .welcome{
+        font-size: 40px;
+    }
+  </style>
+</head>
+<body>
+    <div class="welcome"> <b>WELCOME TO MINDEASE</b></div>
+ <br>  <br>
+  <div class="login-box">
+    <h2>Login</h2>
+    <form action="mindease.html" method="post">
+      <input type="text" name="email id" placeholder="Enter Email " required>
+      <input type="password" name="password" placeholder="Enter Password" required>
+      <button type="submit">Login</button>
+    </form>
+  </div>
+</body>
+</html>

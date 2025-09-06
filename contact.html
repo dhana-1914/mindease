@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - MindEase</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f8fb;
+      margin: 0;
+      padding: 0;
+      color: #222;
+    }
+    header {
+      background: #4a90e2;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+    main {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 20px;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    }
+    h1, h2 {
+      color: #333;
+    }
+    .team {
+      margin: 20px 0;
+    }
+    .card {
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 15px;
+      background: #fafafa;
+    }
+    .card h3 {
+      color: #4a90e2;
+    }
+    .founder{
+      margin-bottom: 20px;
+    }
+    .developers{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .developer{
+      flex: 1 1 250px;
+    }
+    form {
+      margin-top: 30px;
+      display: grid;
+      gap: 15px;
+    }
+    label {
+      font-weight: bold;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 15px;
+    }
+    button {
+      padding: 12px;
+      background: #4a90e2;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Contact Us</h1>
+    <p>MindEase – Your Guide to Mental Wellbeing</p>
+  </header>
+
+  <main>
+    <h2>Our Team</h2>
+    <div class="team founder">
+      <div class="card">
+        <h3>Founder</h3>
+        <p><strong>Name:</strong>Katari Geetha Manasa</p>
+        <p><strong>Email:</strong> kgeethamanasa@gmail.com</p>
+        <p><strong>Role:</strong> Vision & Strategy</p>
+      </div>
+    </div>
+    <div class="team developers">
+      <div class="card developer">
+        <h3>Developer</h3>
+        <p><strong>Name:</strong>Tripurari Dhana Naga Sai Sri</p>
+        <p><strong>Email:</strong> dhanatripurari@gmail.com</p>
+        <p><strong>Role:</strong> Website Development</p>
+      </div>
+
+      <div class="card developer">
+        <h3>Developer</h3>
+        <p><strong>Name:</strong>Alapati Naga Venkata Aruna sai</p>
+        <p><strong>Email:</strong> alapatiaruna@gmail.com</p>
+        <p><strong>Role:</strong> Website Development</p>
+      </div>
+
+      <div class="card developer">
+        <h3>Developer</h3>
+        <p><strong>Name:</strong> Pemmisetti Chathurya</p>
+        <p><strong>Email:</strong> pchathurya@gmail.com</p>
+        <p><strong>Role:</strong> Website Development</p>
+      </div>
+    </div>
+
+    <h2>Get in Touch</h2>
+    <form action="mailto:youremail@example.com" method="post" enctype="text/plain">
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Your Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </main>
+
+</body>
+</html>
